@@ -1,0 +1,4 @@
+interface:
+  display_name: "ATB Site Builder"
+  short_description: "Build accessible ATB CMS page sections"
+  default_prompt: "Use $site-builder to add a responsive, accessible homepage section to this ATB CMS template."
