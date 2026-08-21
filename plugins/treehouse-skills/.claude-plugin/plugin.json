@@ -1,7 +1,7 @@
 {
   "name": "treehouse-skills",
   "displayName": "Treehouse Skills",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Skills for building and optimizing Treehouse Internet Group CMS sites: template-safe frontend components, CRO test ideas, tracking-tag audits, and thumbnail design.",
   "author": {
     "name": "John Siwicki"
