@@ -1,0 +1,11 @@
+{
+  "name": "seo",
+  "displayName": "SEO",
+  "version": "0.1.0",
+  "description": "SEO skills for crawl analysis and technical search work, starting with Screaming Frog export analysis.",
+  "author": {
+    "name": "John Siwicki"
+  },
+  "repository": "https://github.com/johnsiwicki/skills",
+  "keywords": ["seo", "screaming-frog", "crawl", "technical-seo", "on-page"]
+}
