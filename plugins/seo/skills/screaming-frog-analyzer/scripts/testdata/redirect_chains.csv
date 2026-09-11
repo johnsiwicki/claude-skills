@@ -1,0 +1,3 @@
+Address,Number of Hops,Loop,Redirect URL
+https://example.com/a,4,False,https://example.com/d
+https://example.com/loop-a,2,True,https://example.com/loop-a

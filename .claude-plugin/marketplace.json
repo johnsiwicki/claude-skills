@@ -3,12 +3,17 @@
   "owner": {
     "name": "John Siwicki"
   },
-  "description": "Treehouse Internet Group skills for Claude Code — CMS-safe frontend work, conversion optimization, and marketing-tag auditing.",
+  "description": "Treehouse Internet Group skills for Claude Code — CMS-safe frontend work, conversion optimization, marketing-tag auditing, and SEO crawl analysis.",
   "plugins": [
     {
       "name": "treehouse-skills",
       "source": "./plugins/treehouse-skills",
       "description": "Skills for building and optimizing Treehouse Internet Group CMS sites: template-safe frontend components, CRO test ideas, tracking-tag audits, and thumbnail design."
+    },
+    {
+      "name": "seo",
+      "source": "./plugins/seo",
+      "description": "SEO skills for crawl analysis and technical search work, including Screaming Frog export analysis."
     }
   ]
 }

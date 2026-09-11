@@ -1,15 +1,18 @@
 # Treehouse Skills
 
-A Claude Code [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) distributing the `treehouse-skills` plugin.
+A Claude Code [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) distributing Treehouse and SEO plugins.
 
 ## Install
 
 ```
 /plugin marketplace add johnsiwicki/skills
 /plugin install treehouse-skills@treehouse
+/plugin install seo@treehouse
 ```
 
-## Skills
+## Plugins
+
+### treehouse-skills
 
 | Skill | Purpose |
 | --- | --- |
@@ -19,7 +22,13 @@ A Claude Code [plugin marketplace](https://code.claude.com/docs/en/plugin-market
 | `website-qa-audit` | Repeatable QA pass: Lighthouse scores, Core Web Vitals, mobile friendliness, and severity-ranked visual defects across mobile and desktop viewports. |
 | `youtube-thumbnail-creator` | Design high-CTR YouTube thumbnails incorporating a logo. |
 
-Skills are namespaced once installed, e.g. `/treehouse-skills:tracking-pixel-audit`.
+### seo
+
+| Skill | Purpose |
+| --- | --- |
+| `screaming-frog-analyzer` | Take a Screaming Frog crawl export, identify problems, cluster them by URL template, and prioritize fixes. |
+
+Skills are namespaced once installed, e.g. `/treehouse-skills:tracking-pixel-audit` or `/seo:screaming-frog-analyzer`.
 
 ## Layout
 
@@ -28,6 +37,9 @@ Skills are namespaced once installed, e.g. `/treehouse-skills:tracking-pixel-aud
 plugins/treehouse-skills/
   .claude-plugin/plugin.json         # plugin manifest
   skills/<name>/SKILL.md             # one directory per skill
+plugins/seo/
+  .claude-plugin/plugin.json
+  skills/<name>/SKILL.md
 ```
 
 Validate changes with `claude plugin validate .` before pushing. Bump `version` in
